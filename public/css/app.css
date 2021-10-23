@@ -1,0 +1,70 @@
+#navs{
+    background-color: black;
+    min-height: 8vh;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.nav .btn{
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+.nav span{
+    font-size: 3vh;
+    letter-spacing: 3px;
+}
+.nav a{
+    text-align: center;
+    font-size:   2.9vh;
+    letter-spacing: 3px;
+    margin-left: 5vh;
+}
+@media (min-width:992px) {    
+    .vertical-nav {
+        position: fixed;
+        top: 63px;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        background-color: #f8f8f8;
+        overflow-y: auto;
+        padding-top: 30px
+      }
+  }
+  .container{
+      margin-top: 8vh;
+  }
+  .container .text{
+      /* margin-left: 155px; */
+      margin-top: 2vh;
+  }
+.container .text-3{
+    color: green;
+    font-size: 40px;
+    letter-spacing: 3px;
+    /* margin-left: 105px; */
+    text-align: center;
+}
+.row{
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+.row .card .card-img img{
+    height:125px ;
+    border-radius:250px 250px 250px 250px ;
+}
+.nav-item .nav-link{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+#card{
+    margin-bottom: 28px;
+    background-color: rgb(213, 253, 204);
+    transform: translate(90px,0px);
+    box-shadow: rgb(11, 124, 11) 2px 4px;
+}

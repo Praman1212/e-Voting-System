@@ -22,3 +22,13 @@ Route::get('/detail',[MainVoting::class,'detail'])->name('user.detail');
 Route::get('/setting',[MainVoting::class,'setting'])->name('user.setting');
 
 Route::get('/about-us',[MainVoting::class,'aboutus'])->name('user.about-us');
+
+Route::get('/admin',[MainVoting::class,'admin'])->name('admin.admin');
+
+Route::get('/addCandidate/candidateform',[MainVoting::class,'candidateform'])->name('addCandidate.candidateform');
+
+Route::post('/addCandidate/save',[MainVoting::class,'save'])->name('addCandidate.save');
+
+Route::get('/add/{id}',[MainVoting::class,'add'])->name('add');
+
+Route::get('/check',[MainVoting::class,'check'])->name('user.check'); 

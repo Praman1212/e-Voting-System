@@ -14,6 +14,7 @@
             Online Election System
         </h3>
         <div class="row">
+            @foreach ($candidates as $candidate )
             <div class="col-md-4">
                 <div class="card" id="card">
                     <div class="card-body">
@@ -22,238 +23,19 @@
                         </div>
                         <div class="cart-title">
                             <h3>
-                                Praman
+                                {{ $candidate->cname }}
                             </h3>
                         </div>
                         <div class="card-text">
                             <p>
-                                He is dynamic Leader
+                                {{ $candidate->cdetail }}
                             </p>
                             <a href="" class="btn btn-primary">Vote</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" id="card">
-                    <div class="card-body">
-                        <div class="card-img">
-                            <img src="{{ URL::to('image/messi.jpg') }}" alt="messi">
-                        </div>
-                        <div class="cart-title">
-                            <h3>
-                                Praman
-                            </h3>
-                        </div>
-                        <div class="card-text">
-                            <p>
-                                He is dynamic Leader
-                            </p>
-                            <a href="" class="btn btn-primary">Vote</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

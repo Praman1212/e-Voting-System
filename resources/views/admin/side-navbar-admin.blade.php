@@ -11,21 +11,14 @@
     <nav class="navbar" id="side-nav">      
       <ul class="navbar-nav  flex-column vertical-nav" id= "side-nav">
         <li class="nav-item">
-          <hr>
-          <a class="nav-link" href={{ route('user.voting') }}>Voting</a>
+            <hr>
+            <a class="nav-link" href=>Add Candidate</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href=>Candidate Info</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href={{ route('user.profile') }}>User Profile</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ route('user.detail') }}>Candidate details</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ route('user.setting') }}>Setting</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href={{ route('user.about-us') }}>About Us</a>
+          <a class="nav-link" href=>User Info</a>
         </li>
         </ul>      
       </nav>
